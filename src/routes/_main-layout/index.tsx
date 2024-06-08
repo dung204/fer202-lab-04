@@ -1,13 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 
-export const Route = createFileRoute('/_main-layout/')({
-  component: IndexPage,
-});
+import HomePage from '@/pages/HomePage';
 
-function IndexPage() {
-  return (
-    <div>
-      <h1>Index</h1>
-    </div>
-  );
-}
+export const Route = createFileRoute('/_main-layout/')({
+  component: HomePage,
+});

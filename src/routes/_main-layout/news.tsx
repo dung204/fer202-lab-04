@@ -1,13 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 
+import NewsPage from '@/pages/NewsPage';
+
 export const Route = createFileRoute('/_main-layout/news')({
   component: NewsPage,
 });
-
-function NewsPage() {
-  return (
-    <div>
-      <h1>News Page</h1>
-    </div>
-  );
-}
