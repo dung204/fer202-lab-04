@@ -1,0 +1,17 @@
+[
+  {
+    "id": "da5906a8-6695-5bb1-bb7d-28db1934341b",
+    "name": "Hardwell",
+    "imageUrl": "/images/hardwell.jpg"
+  },
+  {
+    "id": "8835ca62-0d19-5e68-a063-99fdf9c325d2",
+    "name": "Armin van Buuren",
+    "imageUrl": "/images/armin-van-buuren.jpg"
+  },
+  {
+    "id": "da10b152-639d-52ff-b593-a90fb8df77d1",
+    "name": "Martin Garrix",
+    "imageUrl": "/images/martin-garrix.jpg"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "a08963b9-79fc-5a75-ac49-0b1937b94213",
+    "name": "Dubstep",
+    "imageUrl": "/images/carousel-2.jpg"
+  },
+  {
+    "id": "2776f93d-6e25-5c28-a115-da2a7d520079",
+    "name": "Future bass",
+    "imageUrl": "/images/carousel-1.jpg"
+  },
+  {
+    "id": "f3a8b12d-b2a7-5ce6-9d08-92d810fb1056",
+    "name": "Trap",
+    "imageUrl": "/images/carousel-3.jpg"
+  },
+  {
+    "id": "c19b4da1-b58c-57e2-88f4-db2475f20880",
+    "name": "House",
+    "imageUrl": "/images/carousel-2.jpg"
+  },
+  {
+    "id": "1b81ae2e-bde1-596b-ab02-8b544daa3f6a",
+    "name": "Techno",
+    "imageUrl": "/images/carousel-3.jpg"
+  },
+  {
+    "id": "754657f7-402d-5ec1-ab12-3834236e87db",
+    "name": "Electro",
+    "imageUrl": "/images/carousel-5.jpg"
+  },
+  {
+    "id": "e7a3cf4a-00f2-58c2-a323-6755992102ee",
+    "name": "Disco",
+    "imageUrl": "/images/carousel-2.jpg"
+  },
+  {
+    "id": "233c5f49-3eed-5c53-b251-f0003b2c1671",
+    "name": "Trance",
+    "imageUrl": "/images/carousel-4.jpg"
+  },
+  {
+    "id": "488c9a20-90c5-53a6-b94d-29aa55a673eb",
+    "name": "Psytrance",
+    "imageUrl": "/images/carousel-5.jpg"
+  },
+  {
+    "id": "e2e95469-9356-53a3-8dda-78e4732a8b52",
+    "name": "House",
+    "imageUrl": "/images/carousel-5.jpg"
+  },
+  {
+    "id": "937322be-8d9b-5e28-85ae-41b7b6ed4347",
+    "name": "Hardstyle",
+    "imageUrl": "/images/carousel-2.jpg"
+  },
+  {
+    "id": "d3406b9f-b234-59dd-93b1-ff6961e0b9c8",
+    "name": "Hardcore",
+    "imageUrl": "/images/carousel-3.jpg"
+  },
+  {
+    "id": "37dce6a8-aa8b-542f-9e60-f918e6768b04",
+    "name": "Progressive house",
+    "imageUrl": "/images/carousel-5.jpg"
+  },
+  {
+    "id": "53d1dfb8-f9b5-5c11-a570-92c6dc5ee9e3",
+    "name": "Big room house",
+    "imageUrl": "/images/carousel-5.jpg"
+  },
+  {
+    "id": "db7ed39c-60e6-52b6-9e29-5d5905e5e963",
+    "name": "Tropical house",
+    "imageUrl": "/images/carousel-4.jpg"
+  }
+]
