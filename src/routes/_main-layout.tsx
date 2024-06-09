@@ -1,18 +1,7 @@
-import { Outlet, createFileRoute } from '@tanstack/react-router';
+import { createFileRoute } from '@tanstack/react-router';
 
-import Footer from '@/layouts/Footer';
-import Header from '@/layouts/Header';
+import MainLayout from '@/layouts/MainLayout';
 
 export const Route = createFileRoute('/_main-layout')({
   component: MainLayout,
 });
-
-function MainLayout() {
-  return (
-    <>
-      <Header />
-      <Outlet />
-      <Footer />
-    </>
-  );
-}

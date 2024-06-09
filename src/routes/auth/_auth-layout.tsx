@@ -1,14 +1,7 @@
-import { Outlet, createFileRoute } from '@tanstack/react-router';
+import { createFileRoute } from '@tanstack/react-router';
+
+import AuthLayout from '@/layouts/AuthLayout';
 
 export const Route = createFileRoute('/auth/_auth-layout')({
   component: AuthLayout,
 });
-
-function AuthLayout() {
-  return (
-    <>
-      <h1>Auth Layout</h1>
-      <Outlet />
-    </>
-  );
-}
