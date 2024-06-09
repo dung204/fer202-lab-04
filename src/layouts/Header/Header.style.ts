@@ -19,15 +19,17 @@ const HeaderStyle = styled.div<HeaderStyleProps>`
     transition: all 0.3s;
   }
 
-  & + * {
-    margin-top: ${({ currentHeight, currentPathname }) =>
-      currentPathname === '/' ? 0 : currentHeight}px;
+  & ~ *:not(.TanStackRouterDevtools) {
+    transform: translateY(
+      ${({ currentHeight, currentPathname }) => (currentPathname === '/' ? 0 : currentHeight)}px
+    );
   }
 
   a {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     font-weight: bold;
+    user-select: none;
   }
 `;
 
