@@ -9,6 +9,7 @@ const HeaderStyle = styled.div<HeaderStyleProps>`
   & {
     position: fixed;
     top: 0;
+    z-index: 100;
     width: 100%;
     background-color: ${({ currentPathname }) =>
       currentPathname === '/' ? 'transparent' : 'white'};
@@ -24,25 +25,9 @@ const HeaderStyle = styled.div<HeaderStyleProps>`
   }
 
   a {
-    font-weight: bold;
-    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
-
-    background: -webkit-linear-gradient(left, #0099f7, #f11712);
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    background-size: 300% 100%;
-    background-position: 0;
-    transition: all 0.3s;
-
-    &:hover,
-    &[data-status='active'] {
-      background-position: 100%;
-    }
+    font-weight: bold;
   }
 `;
 

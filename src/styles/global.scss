@@ -3,3 +3,34 @@
 $font-family-sans-serif: 'Inter', sans-serif;
 
 @import 'bootstrap/scss/bootstrap';
+
+:root {
+  --font-size-sm: clamp(0.8rem, 0.25vi + 0.74rem, 0.94rem);
+  --font-size-base: clamp(1rem, 0.45vi + 0.89rem, 1.25rem);
+  --font-size-lg: clamp(1.25rem, 0.76vi + 1.06rem, 1.67rem);
+  --font-size-xl: clamp(1.56rem, 1.2vi + 1.26rem, 2.22rem);
+  --font-size-2xl: clamp(1.95rem, 1.83vi + 1.5rem, 2.96rem);
+  --font-size-3xl: clamp(2.44rem, 2.74vi + 1.76rem, 3.95rem);
+  --font-size-4xl: clamp(3.05rem, 4.02vi + 2.05rem, 5.26rem);
+  --font-size-5xl: clamp(3.81rem, 5.81vi + 2.36rem, 7.01rem);
+  --font-size-6xl: clamp(4.77rem, 8.33vi + 2.69rem, 9.35rem);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  background: -webkit-linear-gradient(left, #0099f7, #f11712);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-size: 300% 100%;
+  background-position: 0;
+  transition: all 0.3s;
+
+  &:hover,
+  &[data-status='active'] {
+    background-position: 100%;
+  }
+}
