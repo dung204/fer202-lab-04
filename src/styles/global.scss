@@ -36,7 +36,6 @@ a {
   background-size: 300% 100%;
   background-position: 0;
   transition: all 0.3s;
-  font-size: var(--font-size-sm);
 
   &:hover,
   &[data-status='active'] {
